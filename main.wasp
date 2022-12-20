@@ -11,10 +11,13 @@ app TodoVideo {
     },
     onAuthFailedRedirectTo: "/login",
   },
-
-  dependencies: [
-    ("nodemailer", "6.8.0")
-  ]
+  
+  // db: {
+  //   system: PostgreSQL
+  // },
+  // dependencies: [
+  //   ("nodemailer", "6.8.0")
+  // ]
 }
 
 // Use Prisma Schema Language (PSL) to define our entities: https://www.prisma.io/docs/concepts/components/prisma-schema
